@@ -5,8 +5,8 @@ class SupabaseConfig {
   SupabaseConfig._();
 
   /// URL de tu proyecto Supabase.
-  static const String supabaseUrl = 'TU_SUPABASE_URL';
+  static const String supabaseUrl = 'https://tthobygjealehxiniuiq.supabase.co';
 
   /// Clave anónima (anon key) de tu proyecto Supabase.
-  static const String supabaseAnonKey = 'TU_SUPABASE_ANON_KEY';
+  static const String supabaseAnonKey = 'sb_publishable_bBSVTOzg1X7Cy71CKP04QQ_YjKJln0R';
 }
