@@ -74,4 +74,4 @@ flutter run -d chrome
 - Integración de visión artificial con ESP32-CAM.
 
 ## 👥 Equipo
-Proyecto desarrollado para el ramo de Innovación en apoyo a la organización CEREFAS.
+Proyecto desarrollado por alumnos de la **Universidad San Sebastián** en apoyo a la organización **CEREFAS**.
