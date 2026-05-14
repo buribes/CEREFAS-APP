@@ -40,4 +40,4 @@ Este repositorio utiliza una política estricta de seguridad para proteger las c
 - **Instalación:** Para configurar el proyecto por primera vez, utiliza los archivos de plantilla como `secrets_example.py` dentro de la carpeta de hardware, renómbralos a `.py` y completa tus datos.
 
 ## 👥 Equipo
-Proyecto desarrollado como parte del ramo de **Innovación**, enfocado en generar impacto tecnológico real para la organización **CEREFAS**.
+Proyecto desarrollado por alumnos de la **Universidad San Sebastián** en apoyo a la organización **CEREFAS**.
