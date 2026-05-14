@@ -43,3 +43,6 @@ Para proteger tus credenciales, este proyecto separa la lógica de las claves de
 ## 🚀 Ejecución
 
 Una vez configuradas tus claves en `secrets.py`, carga tanto el archivo `main.py` como el `secrets.py` a la memoria interna de la ESP32. Al reiniciar la placa, esta comenzará a transmitir datos automáticamente cada 5 segundos hacia Supabase.
+
+## 👥 Equipo
+Proyecto desarrollado por alumnos de la **Universidad San Sebastián** en apoyo a la organización **CEREFAS**.
