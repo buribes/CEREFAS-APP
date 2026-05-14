@@ -1,36 +1,37 @@
-# 🐾 CEREFAS - Monitor Ambiental
+# 🐾 CEREFAS - Aplicación Móvil (Frontend)
 
-Aplicación móvil desarrollada con Flutter para monitorear las condiciones ambientales de jaulas de animales en rehabilitación de la organización **CEREFAS**.
+Esta es la aplicación móvil multiplataforma diseñada para la organización **CEREFAS**. Permite a los rescatistas y especialistas monitorear de forma remota y en tiempo real el bienestar de los animales.
 
-## ¿Qué hace la app?
+## 📱 Funcionalidades Principales
 
-- Muestra en tiempo real la temperatura y humedad de las jaulas
-- Actualización automática cada 10 segundos
-- Alertas visuales cuando la temperatura supera 30°C o la humedad supera 80%
-- Historial de las últimas 20 mediciones con fecha y hora
-- Diseño Material Design 3
+- **Monitoreo en Tiempo Real:** Visualización instantánea de temperatura y humedad.
+- **Sincronización:** Actualización automática de datos cada 5 segundos (sincronizado con el hardware).
+- **Sistema de Alertas:** Indicadores visuales críticos (Temperatura > 30°C o Humedad > 80%).
+- **Historial:** Acceso rápido a las últimas 20 mediciones almacenadas en la nube.
+- **Interfaz Moderna:** Basada en Material Design 3 para una experiencia de usuario fluida.
 
-## Tecnologías utilizadas
+## 🛠️ Tecnologías
 
-- **Flutter** — Framework de desarrollo móvil
-- **Supabase** — Base de datos en la nube
-- **Sensor DHT11 + ESP32** — Hardware de medición
-- **Provider** — Gestión de estado
+- **Framework:** Flutter (Dart)
+- **Backend:** Supabase (PostgreSQL + Realtime)
+- **Arquitectura:** Gestión de estado mediante Provider.
 
-## Estructura del proyecto
-lib/
+## 📂 Estructura del Proyecto (`lib/`)
+
+```text
 ├── config/
-│   └── supabase_config.dart   ← Credenciales de Supabase (ver configuración)
+│   └── supabase_config.dart   ← Configuración de API Keys
 ├── models/
-│   └── sensor_reading.dart    ← Modelo de datos
+│   └── sensor_reading.dart    ← Mapeo de datos de la base de datos
 ├── services/
-│   └── sensor_service.dart    ← Conexión a Supabase
+│   └── sensor_service.dart    ← Lógica de peticiones a Supabase
 ├── screens/
-│   └── home_screen.dart       ← Pantalla principal
+│   └── home_screen.dart       ← Interfaz de usuario principal
 ├── widgets/
-│   ├── reading_card.dart      ← Tarjeta de temperatura/humedad
-│   └── history_list.dart      ← Lista de historial
-└── main.dart
+│   ├── reading_card.dart      ← Componente de visualización de sensores
+│   └── history_list.dart      ← Componente de tabla de historial
+└── main.dart                  ← Punto de entrada de la app
+```
 
 ## ⚙️ Configuración antes de correr
 
