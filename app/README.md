@@ -73,5 +73,5 @@ flutter run -d chrome
 - Gestión de múltiples jaulas y sectores.
 - Integración de visión artificial con ESP32-CAM.
 
-## Equipo
+## 👥 Equipo
 Proyecto desarrollado para el ramo de Innovación en apoyo a la organización CEREFAS.
