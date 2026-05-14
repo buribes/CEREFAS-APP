@@ -33,7 +33,7 @@ Esta es la aplicación móvil multiplataforma diseñada para la organización **
 └── main.dart                  ← Punto de entrada de la app
 ```
 
-## ⚙️ Configuración antes de correr
+## ⚙️ Configuración e Instalación
 
 ### 1. Clonar el repositorio
 ```bash
@@ -50,14 +50,14 @@ static const String supabaseUrl = 'TU_SUPABASE_URL';
 static const String supabaseAnonKey = 'TU_SUPABASE_ANON_KEY';
 ```
 
-> ⚠️ **Importante:** Antes de hacer `git push`, vuelve a dejar los placeholders `TU_SUPABASE_URL` y `TU_SUPABASE_ANON_KEY` en ese archivo. Nunca subas las credenciales reales al repositorio.
+> ⚠️ **Importante:** Nunca subas el archivo con las claves reales al repositorio público. Utiliza este archivo como base y mantén tus credenciales seguras.
 
 ### 3. Instalar dependencias
 ```bash
 flutter pub get
 ```
 
-### 4. Correr la app
+### 4. Ejecución
 ```bash
 # En emulador Android o dispositivo conectado
 flutter run
@@ -68,11 +68,10 @@ flutter run -d chrome
 
 ## 🔮 Funcionalidades futuras
 
-- Login y autenticación de usuarios
-- Soporte para múltiples jaulas
-- Notificaciones push cuando hay alertas
-- Gráficos históricos de temperatura y humedad
-- Integración con cámara ESP32-CAM para vigilancia visual
+- Implementación de notificaciones Push para alertas críticas.
+- Gráficos estadísticos semanales.
+- Gestión de múltiples jaulas y sectores.
+- Integración de visión artificial con ESP32-CAM.
 
 ## Equipo
 Proyecto desarrollado para el ramo de Innovación en apoyo a la organización CEREFAS.
